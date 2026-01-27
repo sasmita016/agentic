@@ -12,8 +12,9 @@ I'm here to help you be most successful with your learning! If you hit any snafu
 https://www.linkedin.com/in/eddonner/
 
 If you'd like to go more deeply into LLMs and Agents:  
-- I have intensive online courses that cover this material, and tons more, with juicy commercial projects. An 8 week journey into all things LLM engineering, including RAG and fine-tuning. A 6 week adventure into Agentic AI. A 4 week deep dive into deploying AI for Production on the cloud with AIOps. And a briefing for leaders and founders on building a valuable AI business. [This post explains my courses and curriculum](https://edwarddonner.com/2025/05/28/connecting-my-courses-become-an-llm-expert-and-leader/). Please do get in touch if you decide to take any of them.
-- I'm running a number of [Live Events](https://edwarddonner.com/2025/11/11/ai-live-event/) with O'Reilly and Pearson
+- I have intensive online courses that cover this material, and tons more, on being an AI Builder, an AI Engineer, and an AI Leader. Here is [the full curriculum](https://edwarddonner.com/curriculum). Please do get in touch if you decide to take any of them.  
+- I am building a [Directory of Proficient AI Engineers](https://edwarddonner.com/proficient) who have completed my full curriculum   
+- I'm running a number of [Live Events](https://edwarddonner.com/2025/11/11/ai-live-event/) with O'Reilly and Pearson  
 
 ## Pre-Setup: running Ollama locally with Open-Source
 

@@ -21,8 +21,8 @@ class FrontierAgent(Agent):
         self.log("Initializing Frontier Agent")
         gemini_key = os.getenv("GOOGLE_API_KEY")
         if gemini_key:
-            self.MODEL = "gemini/gemini-2.5-flash"
-            self.log("Frontier Agent is set up with Gemini")
+            self.MODEL = "gemini/gemini-3-flash-preview"
+            self.log("Frontier Agent is set up with Gemini 3 Flash Preview")
         else:
             self.MODEL = "gpt-4.1-mini"
             self.log("Frontier Agent is setting up with OpenAI")
