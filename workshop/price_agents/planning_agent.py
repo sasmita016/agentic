@@ -38,7 +38,7 @@ class PlanningAgent(BaseAgent):
         self.log(f"Planning Agent has processed a deal with discount ${discount:.2f}")
         return Opportunity(deal=deal, estimate=estimate, discount=discount)
 
-    def plan(self, memory: List[str] = []) -> Optional[Opportunity]:
+    def plan(self, memory: List[Opportunity] = []) -> Optional[Opportunity]:
         """
         Run the full workflow:
         1. Use the ScannerAgent to find deals from RSS feeds
@@ -46,7 +46,7 @@ class PlanningAgent(BaseAgent):
         3. Use the MessagingAgent to send a notification of deals
         We could have an LLM come up with this workflow, providing it with the Tools for each step
         But that would be overkill in this case as the workflow is simple and fixed; no intelligent triaging is required.
-        :param memory: a list of URLs that have been surfaced in the past
+        :param memory: a list of Opportunities that have been surfaced in the past
         :return: an Opportunity if one was surfaced, otherwise None
         """
         self.log("Planning Agent is kicking off a run")
