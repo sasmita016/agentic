@@ -1,6 +1,6 @@
 from typing import Optional, List
 from price_agents.agent import Agent as BaseAgent
-from price_agents.deals import ScrapedDeal, DealSelection, Deal, Opportunity
+from price_agents.deals import Deal, Opportunity
 from price_agents.scanner_agent import ScannerAgent
 from price_agents.frontier_agent import FrontierAgent
 from price_agents.specialist_agent import SpecialistAgent
@@ -10,7 +10,7 @@ from price_agents.messaging_agent import MessagingAgent
 class PlanningAgent(BaseAgent):
 
     name = "Planning Agent"
-    color = Agent.GREEN
+    color = BaseAgent.GREEN
     DEAL_THRESHOLD = 50
 
     def __init__(self, collection):
